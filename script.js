@@ -12,7 +12,9 @@ function countUp() {
     return counter
 }
 function countDown() {
-    --counter
+    if (counter > 0) {
+        --counter
+    }
     counterSpan.innerText = `${counter}`
     return counter
 }
