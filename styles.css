@@ -68,3 +68,8 @@ button {
 #reset {
     background-color: var(--grey);
 }
+
+#random {
+    background-color: var(--color-primary);
+    color: var(--grey)
+}
